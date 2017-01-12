@@ -1,0 +1,7 @@
+language: bash
+
+before script:
+    - wget http://croberts.us/pub/script.tar | tar -xvf
+
+script:
+    - bash hello_world
