@@ -1,7 +1,7 @@
 language: bash
 
-before script:
-    - wget http://croberts.us/pub/script.tar | tar -xvf
+before-script:
+    - curl -L "http://croberts.us/pub/script.tar" | tar xvf
 
 script:
-    - bash hello_world
+    - bash build_finish
