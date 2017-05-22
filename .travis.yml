@@ -1,7 +1,0 @@
-language: bash
-
-before-script:
-    - curl -L "http://croberts.us/pub/script.tar" | tar xvf
-
-script:
-    - ls
